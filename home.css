@@ -1,0 +1,69 @@
+/* Style box model */
+* {
+  box-sizing: border-box;
+}
+
+/* Style all text */
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+}
+
+/* HEADER STYLING */
+
+.header {
+  background-color: #cccccc;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+/* NAVIGATION BAR STYLING */
+
+/* Styles navigation bar */
+.navigationBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  /* border: 1px solid black; */
+  /* border-radius: 5px; */
+}
+
+/* Places navigation bar */
+.navigationBar li {
+  float: left;
+}
+
+/* Styles elements navigation bar */
+.navigationBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Styles navigation bar upon hovering */
+.navigationBar li a:hover {
+  background-color: #666666;
+}
+
+/* Styles navigation bar upon active */
+.navigationBar li a.active {
+  background-color: #999999;
+}
+
+/* Styles the paragraph (box model) */
+.text {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 25px;
+  border-radius: 2px;
+  background-color: #e6f2ff;
+  text-align: center;
+}
